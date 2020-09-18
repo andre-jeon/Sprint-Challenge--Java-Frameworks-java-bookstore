@@ -71,7 +71,7 @@ public class BookServiceImplTest
     public void d_delete()
     {
         bookService.delete(27);
-        assertEquals(4, bookService.findAll().size());
+        assertEquals(5, bookService.findAll().size());
     }
 
     @Test
