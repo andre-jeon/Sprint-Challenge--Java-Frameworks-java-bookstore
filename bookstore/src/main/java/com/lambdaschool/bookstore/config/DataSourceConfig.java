@@ -14,7 +14,7 @@ public class DataSourceConfig {
     @Value("${local.run.db:h2}")
     private String dbValue;
 
-    @Value("${spring.detasource.url:}")
+    @Value("${spring.datasource.url:}")
     private String dbUrl;
 
     @Bean
