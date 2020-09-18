@@ -36,37 +36,27 @@ public class BookServiceImplTest
     }
 
     @Test
-    public void findAll()
+    public void a_findAll()
     {
     }
 
     @Test
-    public void findBookById()
+    public void b_findBookById()
     {
     }
 
     @Test(expected = ResourceNotFoundException.class)
-    public void notFindBookById()
+    public void c_notFindBookById()
     {
     }
 
     @Test
-    public void delete()
+    public void d_delete()
     {
     }
 
     @Test
-    public void save()
-    {
-    }
-
-    @Test
-    public void update()
-    {
-    }
-
-    @Test
-    public void deleteAll()
+    public void e_save()
     {
     }
 }

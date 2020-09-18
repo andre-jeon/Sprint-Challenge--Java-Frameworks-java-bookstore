@@ -71,36 +71,31 @@ public class BookControllerTest
     }
 
     @Test
-    public void listAllBooks() throws
+    public void a_listAllBooks() throws
             Exception
     {
     }
 
     @Test
-    public void getBookById() throws
+    public void b_getBookById() throws
             Exception
     {
     }
 
     @Test
-    public void getNoBookById() throws
+    public void c_getNoBookById() throws
             Exception
     {
     }
 
     @Test
-    public void addNewBook() throws
+    public void d_addNewBook() throws
             Exception
     {
     }
 
     @Test
-    public void updateFullBook()
-    {
-    }
-
-    @Test
-    public void deleteBookById() throws
+    public void e_deleteBookById() throws
             Exception
     {
     }

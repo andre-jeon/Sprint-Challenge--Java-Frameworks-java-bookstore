@@ -8,6 +8,6 @@ public class ResourceFoundException
 {
     public ResourceFoundException(String message)
     {
-        super("Error from a Lambda School Application " + message);
+        super("RESOURCE FOUND EXCEPTION : Error from a Lambda School Application " + message);
     }
 }
