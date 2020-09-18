@@ -191,6 +191,10 @@ public class User
         this.password = passwordEncoder.encode(password);
     }
 
+    public void SetNoEncodePassword(String password) {
+        this.password = password;
+    }
+
     /**
      * Getter for the list of useremails for this user
      *
